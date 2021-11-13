@@ -10,7 +10,7 @@
 }
 
 h2 {
-  color: #0b6623;
+  color: var(--color-tertiary);
   text-align: center;
 }
 

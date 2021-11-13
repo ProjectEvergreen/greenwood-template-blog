@@ -9,7 +9,7 @@
 }
 
 h2 {
-  color: #0b6623;
+  color: var(--color-tertiary);
 }
 h2, h3  {
   font-size: 2rem;
@@ -17,7 +17,7 @@ h2, h3  {
 }
 
 a {
-  color: #1d337a;
+  color: var(--color-tertiary);
 }
 
 .more-posts {

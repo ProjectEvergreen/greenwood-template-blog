@@ -17,7 +17,7 @@ class HeaderComponent extends HTMLElement {
       <style>
       .header {
         font-size: 1.2rem;
-        background-color: #ededed;
+        background-color: var(--color-secondary);
       }
 
       .header h3 {
@@ -52,7 +52,7 @@ class HeaderComponent extends HTMLElement {
         padding: 0.5rem;
       }
       .navigation > li > a {
-        color: #2d2d2d;
+        color: var(--color-primary);
         font-weight: 300;
         text-decoration: none;
       }
@@ -94,10 +94,10 @@ class HeaderComponent extends HTMLElement {
           display: block;
           flex-wrap: wrap;
           padding: 0.5rem;
-          border-bottom: 1px solid gray;
+          border-bottom: 1px solid var(--color-primary);
         }
         .navigation li:first-child {
-          border-top: 1px solid gray;
+          border-top: 1px solid var(--color-primary);
         }
 
       }

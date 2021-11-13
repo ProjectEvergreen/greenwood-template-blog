@@ -27,7 +27,7 @@ class FooterComponent extends HTMLElement {
         background-color: #fff;
       }
       .footer a {
-        color: #2d2d2d;
+        color: var(--color-primary);
         text-decoration: none;
       }
       .footer h4 {
@@ -37,11 +37,14 @@ class FooterComponent extends HTMLElement {
         text-align: center;
         font-weight: 200;
       }
+      span {
+        color:var(--color-tertiary);
+      }
       </style>
 
       <footer class="footer">
         <h4>
-          <a href="https://www.greenwoodjs.io/">My Blog &copy; ${year} &#9672 Built with GreenwoodJS</a>
+          <a href="https://www.greenwoodjs.io/">My Blog &copy; ${year} <span>&#9672</span> Built with GreenwoodJS</a>
         </h4>
       </footer>
     `;
