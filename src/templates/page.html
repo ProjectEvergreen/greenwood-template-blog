@@ -1,40 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og:http://ogp.me/ns#">
-
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta-outlet></meta-outlet>
-  
     <script type="module" src="../components/footer/footer.js"></script>
     <script type="module" src="../components/header/header.js"></script>
-
     <link rel="stylesheet" href="../styles/theme.css"></link>
     <link rel="stylesheet" href="../styles/home.css"></link>
   </head>
 
   <body>
-
-    <div>
-      <app-header></app-header>
-      
+    <app-header></app-header>
+    <div class="container">
       <div class='content'>
         <content-outlet></content-outlet>
       </div>
-
       <div class='post-list'>
-        <h3>My Posts</h3>
+        <h3>Posts</h3>
         <nav>
           <ul>
-            <li><a href="/blog/first-post/">My First Post</a></li>
-            <li><a href="/blog/second-post/">My Second Post</a></li>
+            <li><a href="/blog/first-post/">First Post</a></li>
+            <li><a href="/blog/second-post/">Second Post</a></li>
           </ul>
         </nav>
       </div>
-
-      <app-footer></app-footer>
     </div>
-
+    <app-footer></app-footer>
   </body>
-
 </html>
