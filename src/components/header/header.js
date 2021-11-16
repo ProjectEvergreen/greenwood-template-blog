@@ -16,9 +16,8 @@ class HeaderComponent extends HTMLElement {
     return `
       <style>
       .header {
-        min-height: 30px;
-        padding: 10px;
         font-size: 1.2rem;
+        background-color: var(--color-secondary);
       }
 
       .header h3 {
@@ -26,12 +25,15 @@ class HeaderComponent extends HTMLElement {
         padding: 4px 0 0 10px;
         display: inline-block;
         color: black;
+        font-weight: 400;
       }
 
       .head-wrap {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        max-width: 1000px;
+        margin: auto;
       }
 
       .brand {
@@ -50,24 +52,28 @@ class HeaderComponent extends HTMLElement {
         padding: 0.5rem;
       }
       .navigation > li > a {
-        color: #7a7a7a;
+        color: var(--color-primary);
+        font-weight: 300;
         text-decoration: none;
       }
       .navigation a:hover, .navigation a:active {
-        color: #444343;
-        font-weight: 600;
+        color: black;
         text-decoration: none;
       }
-      
+
       .header .social {
         flex:1;
         text-align: center;
       }
-      
+
       .header img.github-logo {
         display: inline-block;
         width: 32px;
         height: 32px;
+      }
+
+      .github-logo:hover {
+        filter: invert(0.3);
       }
 
       @media(max-width: 992px) {
@@ -78,7 +84,7 @@ class HeaderComponent extends HTMLElement {
           flex-direction: column;
         }
       }
-      
+
       @media(max-width: 576px) {
         .navigation {
           width: 100%;
@@ -88,12 +94,12 @@ class HeaderComponent extends HTMLElement {
           display: block;
           flex-wrap: wrap;
           padding: 0.5rem;
-          border-bottom: 1px solid gray;
+          border-bottom: 1px solid var(--color-primary);
         }
         .navigation li:first-child {
-          border-top: 1px solid gray;
+          border-top: 1px solid var(--color-primary);
         }
-        
+
       }
       </style>
 
@@ -111,9 +117,9 @@ class HeaderComponent extends HTMLElement {
           </ul>
           <div class="social">
             <a href="https://github.com/ProjectEvergreen/greenwood">
-              <img 
-                src="/assets/github_logo.png" 
-                alt="Github logo" 
+              <img
+                src="/assets/github_logo.png"
+                alt="Github logo"
                 class="github-logo"/>
             </a>
           </div>

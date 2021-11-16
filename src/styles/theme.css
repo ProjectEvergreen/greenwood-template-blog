@@ -1,4 +1,20 @@
-@import url('//fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+:root {
+  --color-primary: #2d2d2d;
+  --color-secondary: #ededed;
+  --color-tertiary: #0b6623;
+  --color-text-light: #ededed;
+  --color-text-dark: #2d2d2d;
+}
+
+:host {
+  --color-primary: #2d2d2d;
+  --color-secondary: #ededed;
+  --color-tertiary: #0b6623;
+  --color-text-light: #ededed;
+  --color-text-dark: #2d2d2d;
+}
 
 * {
   margin: 0;
@@ -8,6 +24,73 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
   line-height: 1.4;
+  min-height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 400;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 120ch;
+  margin: auto;
+  min-height: 80vh;
+}
+
+.post-list {
+  flex: 1;
+  max-width: 30ch;
+  min-height: 100%;
+  font-size: 1.2rem;
+  padding: 2rem;
+  border-left: 0.5px solid var(--color-secondary);
+}
+
+.post-list h3 {
+  color: #000;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.post-list a {
+  color: #000;
+  transition: color 0.25s;
+}
+
+.post-list a:hover {
+  color: #fff;
+}
+
+.post-list ul li {
+  padding: 5px 0;
+  text-align: center;
+  background-color: var(--color-secondary);
+  margin: 0.5rem 0;
+  list-style-type: none;
+  transition: background-color 0.25s;
+}
+
+.post-list ul li:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .post-list {
+    margin: auto;
+    border: 0;
+  }
 }
