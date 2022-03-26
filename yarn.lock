@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@greenwood/cli@^0.24.2":
-  version "0.24.2"
-  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.24.2.tgz#b79ef05558771b81f1d6331f3a695f46862091bd"
-  integrity sha512-ho6dO7sODBPY/pD7m9YGAHMiL//AvTwXd4qu89kSKwdvAgqJ1vIfIOqGRjdZOdJTXi2fUHVSm47plFUyD+jFrw==
+"@greenwood/cli@^0.25.0-alpha.0":
+  version "0.25.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.25.0-alpha.0.tgz#b27d1b4cb43e8a6d5638915a181df25bbf8bdd63"
+  integrity sha512-GMfyovZD94ZIy9IcXgCUbH/VvuSHDPVt04Aabd+hHvrcmA4XtCYFtGiOKj7ePYuMISQqUgOWY04rfKLjzrdg3Q==
   dependencies:
     "@rollup/plugin-node-resolve" "^13.0.0"
     "@rollup/plugin-replace" "^2.3.4"

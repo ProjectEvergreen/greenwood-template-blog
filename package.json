@@ -1,6 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
+  "type":"module",
   "description": "",
   "scripts": {
     "start": "greenwood develop",
@@ -8,7 +9,7 @@
     "serve": "greenwood serve"
   },
   "devDependencies": {
-    "@greenwood/cli": "^0.24.2"
+    "@greenwood/cli": "^0.25.0-alpha.0"
   },
   "license": "ISC"
 }
