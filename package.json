@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "description": "",
   "scripts": {
     "start": "greenwood develop",
@@ -9,7 +9,8 @@
     "serve": "greenwood serve"
   },
   "devDependencies": {
-    "@greenwood/cli": "^0.25.0-alpha.0"
+    "@greenwood/cli": "^0.25.0-alpha.1",
+    "puppeteer": "^10.2.0"
   },
   "license": "ISC"
 }
