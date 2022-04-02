@@ -9,7 +9,7 @@
     "serve": "greenwood serve"
   },
   "devDependencies": {
-    "@greenwood/cli": "^0.25.0-alpha.1",
+    "@greenwood/cli": "^0.25.0-alpha.2",
     "puppeteer": "^10.2.0"
   },
   "license": "ISC"
