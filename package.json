@@ -9,8 +9,8 @@
     "serve": "greenwood serve"
   },
   "devDependencies": {
-    "@greenwood/cli": "^0.25.0-alpha.3",
-    "puppeteer": "^10.2.0"
+    "@greenwood/cli": "^0.25.0",
+    "puppeteer": "^13.5.2"
   },
   "license": "ISC"
 }
