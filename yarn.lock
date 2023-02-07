@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@greenwood/cli@^0.28.0-alpha.0":
-  version "0.28.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.28.0-alpha.0.tgz#1344aa964eeb3667fc3abf151cfded7d73cb7a3d"
-  integrity sha512-mSJfC/iNdCTz6539a1kRR1c3SLq4cFD1nE5zXDhWCOiEzm1LSSUwIHdF80cZS64E1Ub/1TvF3sk6d6O+AfKQyw==
+"@greenwood/cli@^0.28.0-alpha.1":
+  version "0.28.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.28.0-alpha.1.tgz#77df1b475af224ca3405788861606a5b486bfe56"
+  integrity sha512-ZrefUzySESn1vDdFt8Opjgsut+o3JeT+TMLiUSq3DJ/xNP5H7DoxucDsk5uWRZxaPiVrwLMkvPfgTtGpHf8oAw==
   dependencies:
     "@rollup/plugin-node-resolve" "^13.0.0"
     "@rollup/plugin-replace" "^2.3.4"
