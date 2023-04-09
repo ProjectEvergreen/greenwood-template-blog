@@ -6,10 +6,10 @@
   "scripts": {
     "start": "greenwood develop",
     "build": "greenwood build",
-    "serve": "greenwood serve"
+    "serve": "greenwood build && greenwood serve"
   },
   "devDependencies": {
-    "@greenwood/cli": "^0.27.0"
+    "@greenwood/cli": "^0.28.0"
   },
   "license": "ISC"
 }
