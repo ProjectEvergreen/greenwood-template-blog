@@ -96,10 +96,10 @@ export default class HeaderComponent extends HTMLElement {
       </style>
 
       <header class="header">
-        <div class="head-wrap">
+        <nav class="head-wrap">
           <div class="brand">
             <a href="/">
-              <h3>My Personal Blog</h3>
+              <h1>My Personal Blog</h1>
             </a>
           </div>
           <ul class="navigation">
@@ -115,7 +115,7 @@ export default class HeaderComponent extends HTMLElement {
                 class="github-logo"/>
             </a>
           </div>
-        </div>
+        </nav>
       </header>
     `;
   }

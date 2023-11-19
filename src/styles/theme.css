@@ -62,12 +62,12 @@ p {
 }
 
 .post-list a {
-  color: #000;
+  color: inherit;
   transition: color 0.25s;
 }
 
 .post-list a:hover {
-  color: #fff;
+  color: inherit;
 }
 
 .post-list ul li {

@@ -9,7 +9,7 @@
   padding-bottom: 5em;
 }
 
-h2 {
+h1, h2 {
   color: var(--color-tertiary);
   text-align: center;
 }
