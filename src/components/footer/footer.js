@@ -21,7 +21,7 @@ export default class FooterComponent extends HTMLElement {
         color: var(--color-primary);
         text-decoration: none;
       }
-      .footer h4 {
+      .footer p {
         width: 90%;
         margin: 0 auto;
         padding: 20px;
@@ -34,9 +34,9 @@ export default class FooterComponent extends HTMLElement {
       </style>
 
       <footer class="footer">
-        <h4>
+        <p>
           <a href="https://www.greenwoodjs.io/">My Blog &copy; ${year} <span>&#9672</span> Built with GreenwoodJS</a>
-        </h4>
+        </p>
       </footer>
     `;
   }
