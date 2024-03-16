@@ -6,12 +6,10 @@
   "scripts": {
     "start": "greenwood develop",
     "build": "greenwood build",
-    "serve": "greenwood build && greenwood serve",
-    "postinstall": "patch-package"
+    "serve": "greenwood build && greenwood serve"
   },
   "devDependencies": {
-    "@greenwood/cli": "^0.30.0-alpha.0",
-    "patch-package": "^8.0.0"
+    "@greenwood/cli": "^0.30.0-alpha.1"
   },
   "license": "ISC"
 }
