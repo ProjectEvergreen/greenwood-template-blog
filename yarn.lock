@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@greenwood/cli@^0.30.0-alpha.1":
-  version "0.30.0-alpha.1"
-  resolved "https://registry.npmjs.org/@greenwood/cli/-/cli-0.30.0-alpha.1.tgz"
-  integrity sha512-koDDXQo9bTB07OJL9ID1+gT7J/uBPKt2KW+CQLz0EUuGRnveVSR8zrmIdOfubFoimQRfD2wUciV2rUb5vhztQQ==
+"@greenwood/cli@^0.30.0-alpha.2":
+  version "0.30.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.30.0-alpha.2.tgz#a6e4d90a182b89726d4cd6c577f956006c1b47f0"
+  integrity sha512-lh3YmRFCZXcLLYJrK3L40GLZnQZchqZ0QFQ8cXqculnBDxo0Y2cHKUGUJWTBzsODiGWOaJNuCIY4wxXBvTnu2w==
   dependencies:
     "@rollup/plugin-commonjs" "^25.0.0"
     "@rollup/plugin-node-resolve" "^15.0.0"
@@ -15,7 +15,7 @@
     acorn-walk "^8.0.0"
     commander "^2.20.0"
     css-tree "^2.2.1"
-    es-module-shims "^1.2.0"
+    es-module-shims "^1.8.3"
     front-matter "^4.0.2"
     koa "^2.13.0"
     koa-body "^6.0.1"
@@ -29,7 +29,7 @@
     remark-rehype "^7.0.0"
     rollup "^3.29.4"
     unified "^9.2.0"
-    wc-compiler "~0.12.1"
+    wc-compiler "~0.13.0"
 
 "@jridgewell/gen-mapping@^0.3.0":
   version "0.3.2"
@@ -338,6 +338,11 @@ accepts@^1.3.5:
   dependencies:
     mime-types "~2.1.24"
     negotiator "0.6.2"
+
+acorn-import-attributes@^1.9.5:
+  version "1.9.5"
+  resolved "https://registry.yarnpkg.com/acorn-import-attributes/-/acorn-import-attributes-1.9.5.tgz#7eb1557b1ba05ef18b5ed0ec67591bfab04688ef"
+  integrity sha512-n02Vykv5uA3eHGM/Z2dQrcD56kL8TyDb2p1+0P83PClMnC/nc+anbQRhIOWnSq4Ke/KvDPrY3C9hDtC/A3eHnQ==
 
 acorn-walk@^8.0.0, acorn-walk@^8.2.0:
   version "8.3.2"
@@ -662,10 +667,10 @@ es-errors@^1.3.0:
   resolved "https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz"
   integrity sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==
 
-es-module-shims@^1.2.0:
-  version "1.4.7"
-  resolved "https://registry.npmjs.org/es-module-shims/-/es-module-shims-1.4.7.tgz"
-  integrity sha512-qYSDOnqPKoBoMGlpY8kQj1v3mVPpTfcob9a2xIIFoNgRlaVuI59yFODKkYrJ3nkz3z7d4dGpiUMRxes8jgiNRQ==
+es-module-shims@^1.8.3:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/es-module-shims/-/es-module-shims-1.10.0.tgz#545eac89923052747343f354efda1de78dfadf1a"
+  integrity sha512-3PmuShQBd9d8pulTFx6L7HKgncnZ1oeSSbrEfnUasb3Tv974BAvyFtW1HLPJSkh5fCaU9JNZbBzPdbxSwg2zqA==
 
 escape-html@^1.0.3:
   version "1.0.3"
@@ -2003,14 +2008,15 @@ vfile@^4.0.0:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
-wc-compiler@~0.12.1:
-  version "0.12.1"
-  resolved "https://registry.npmjs.org/wc-compiler/-/wc-compiler-0.12.1.tgz"
-  integrity sha512-+uEK9cL9MHIWnXoD11cQ77omBLekw1Oih2wqbrM2jBFGTPHvPauq3jtdWzlkg/0OwOJOyYqbBlQfZb/oA+HuNg==
+wc-compiler@~0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/wc-compiler/-/wc-compiler-0.13.0.tgz#6194bf03663f62d0d3a8276ae49966c66ddcaeb1"
+  integrity sha512-yyFr9MqBrlLM0vEWLL5fHTHgmM66R9BCStIqH8mFA3iJ9EKRk8hRb+wBzDSIE3B6TLsgxYKMPX3fy6ftiujNKg==
   dependencies:
     "@projectevergreen/acorn-jsx-esm" "~0.1.0"
     "@projectevergreen/escodegen-esm" "~0.1.0"
     acorn "^8.7.0"
+    acorn-import-attributes "^1.9.5"
     acorn-walk "^8.2.0"
     parse5 "^6.0.1"
 
