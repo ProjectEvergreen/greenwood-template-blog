@@ -2,16 +2,17 @@
 # yarn lockfile v1
 
 
-"@greenwood/cli@^0.30.0-alpha.3":
-  version "0.30.0-alpha.3"
-  resolved "https://registry.npmjs.org/@greenwood/cli/-/cli-0.30.0-alpha.3.tgz"
-  integrity sha512-pYzTp9B9yYmjCk+KHTtqzA4P5jy8hjbSFJWRjc22htja//UyKYF/37iTfxFnTcfAIlBYzUSYq99t9Oi43v+vSA==
+"@greenwood/cli@^0.30.0-alpha.6":
+  version "0.30.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.30.0-alpha.6.tgz#92f1b1165e6082a4b71f53201c6b27a6bf4e037f"
+  integrity sha512-jQeZknzbvIJyo/M8rp3yFZAv72vuX+yjXES8UEeW2yL1jhvIyTY2Sr2xNp4zM3K/WVCedp+hBcf/QCCr+Ge+Aw==
   dependencies:
     "@rollup/plugin-commonjs" "^25.0.0"
     "@rollup/plugin-node-resolve" "^15.0.0"
     "@rollup/plugin-replace" "^5.0.5"
     "@rollup/plugin-terser" "^0.4.4"
     acorn "^8.0.1"
+    acorn-import-attributes "^1.9.5"
     acorn-walk "^8.0.0"
     commander "^2.20.0"
     css-tree "^2.2.1"
